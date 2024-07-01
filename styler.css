@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --primaria-: #ffffff;
+    --secundaria: #c0c0c0;
+    --color-botao: #167bf7;
+    --cor-de-fundo: #00030C;
+
+    --fonte-titulo: "inter", "sans-serif";
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+
+.primeira_parte {
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-decoration: none;
+}
+.titulo{
+    color: var(--primaria-);
+    margin: 10% 15% 0 7%;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.combo { 
+    margin: 3% 0% 3% 27%;
+}
+.botao_primario {
+    
+    display: flex;
+    border: 2px solid var(--color-botao);
+    justify-content: center;
+    padding: 1rem;
+    background-color: var(--color-botao);
+    color: var(--primaria-);
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 0 20% 2% 15%;
+    font-family: var(--fonte-titulo);
+    font-size: 1rem ;
+}
+.botao_segundario {
+    
+    display: flex;
+    border: 2px solid var(--primaria-);
+    justify-content: center;
+    padding: 1rem;
+    color: var(--primaria-);
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 0 20% 0 15%;
+    font-family: var(--fonte-titulo);
+    font-size: 1rem ;
+}
+.observacao {
+    color: var(--secundaria);
+    margin: 0.5% 0 0 25%;
+    font-family: var(--fonte-titulo);
+    font-size: 0.75rem ;
+}
+
+.segunda_parte {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-decoration: none;
+    background-size: contain;
+    
+}
+.computador {
+    margin: 7% 0 0 30% ;
+}
+.segundo_titulo {
+    color: var(--primaria-);
+    font-family: var(--fonte-titulo);
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 29% 0 0 0 ;
+} 
+.segundo_texto {
+    color: var(--secundaria);
+    font-family: var(--fonte-titulo);
+    font-size: 1rem ;
+    font-weight: 400;
+    margin: 1% 0 0 0 ;
+}
+.terceira_parte {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-decoration: none;
+    background-size: contain;
+}
+.terceiro_texto {
+    color: var(--secundaria);
+    font-family: var(--fonte-titulo);
+    font-size: 1rem ;
+    font-weight: 400;
+    margin: 10% 0 5% 22%;
+}
+
+.terceiro_botao {
+    background-color: var(--color-botao);
+    color: var(--primaria-);
+    border: 2px solid var(--color-botao);
+    padding: 1rem ;
+    border-radius: 0.5rem ;
+    margin: 3% 0 0 22%;
+    font-family: var(--fonte-titulo);
+    font-weight: 400;
+    font-size: 1rem ;
+    text-decoration: none;
+}
+.terceira_foto {
+    margin: 0 0 0 10%;
+}
+.quarta_parte {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-decoration: none;
+    background-size: contain;
+}
+.quarta_imagem {
+    margin: 0 0 0 20% ;
+ }
+.quarto_titulo {
+    color: var(--primaria-);
+    font-family: var(--fonte-titulo);
+    font-size:3rem ;
+    font-weight: 700;
+    margin: 14% 0 0 0 ;
+}
+.quarto_texto {
+    color: var(--secundaria);
+    font-family: var(--fonte-titulo);
+    font-size: 1rem ;
+    font-weight: 400;
+}
+.titulo_dispositivos {
+    color: var(--primaria-);
+    font-family: var(--fonte-titulo);
+    font-size: 3rem ;
+    font-weight: 700;
+    text-align: center;
+}
+.dispositivos_lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    margin: 10% 0 ;
+}
+.lista {
+    color: var(--primaria-);
+    font-family: var(--fonte-titulo);
+    font-size: 2rem ;
+    font-weight: 700;
+}
+.rodape {
+    text-align: center;
+}
+.rodape_lista {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    gap: 5%;
+    margin: 3% 0 ;
+}
+.link {
+    color: var(--primaria-);
+    text-decoration: none;
+   font-family: var(--fonte-titulo);
+   font-size: 1rem ;
+   font-weight: 400;
+
+}
+.rodape_lista a:hover {
+    color: var(--color-botao);
+}
+.rodape_texto {
+    color: var(--secundaria);
+    font-family: var(--secundaria);
+    font-size: 0.90rem ;
+    font-weight: 400;
+    margin: 3% 0 ;
+}
